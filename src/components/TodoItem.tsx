@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const TodoItem = (props: any) => {
-  const [data, setData] = useState(0);
   return <div>{props.title}</div>;
 };
 
